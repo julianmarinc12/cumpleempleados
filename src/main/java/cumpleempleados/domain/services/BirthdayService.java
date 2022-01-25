@@ -43,7 +43,7 @@ public class BirthdayService {
 
     public void existsById(Integer id){
         if(!birthdayRepository.existsById(id)){
-            throw new NotFoundException("user not exist");
+            throw new NotFoundException("user no´t exist");
         }
         birthdayRepository.existsById(id);
     }
